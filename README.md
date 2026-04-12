@@ -1,12 +1,14 @@
 # event
 
-Ce projet a été fait dans le cadre de me remettre à niveau dans la structure frontend en flutter .
+Ce projet a été réalisé dans le cadre de ma remise à niveau en développement frontend avec Flutter.
 
-c'est un projet d'event qui reuni toutes les events de la cote d'ivoire
+Il s’agit d’une application d’événements qui regroupe les différents événements en Côte d’Ivoire 🇨🇮, afin de permettre aux utilisateurs de découvrir facilement les activités autour d’eux.
 
-Design pinterest utilsé
+Design inspiré de Pinterest pour une expérience moderne et intuitive.
 
-Mentor claude ai
+Mentor : Claude AI (corrections et accompagnement)
+
+Clean architecture
 
 ## Getting Started
 
