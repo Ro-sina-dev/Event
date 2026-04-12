@@ -2,6 +2,7 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 
+// send color here
 class AppColors {
   static const background = Color(0xFFFF8C00);
 

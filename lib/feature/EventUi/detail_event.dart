@@ -46,13 +46,13 @@ class DetailEvent extends StatelessWidget {
                         label: 'Lieu',
                         valeur: event['lieu'] ?? event['location']!,
                       ),
-                      SizedBox(height: 10),
+                      SizedBox(width: 10),
                       InfoCard(
                         icone: Icons.calendar_today,
                         label: 'Date',
                         valeur: event['date']!,
                       ),
-                      SizedBox(height: 10),
+                      SizedBox(width: 10),
                       InfoCard(
                         icone: Icons.local_activity,
                         label: 'Prix',

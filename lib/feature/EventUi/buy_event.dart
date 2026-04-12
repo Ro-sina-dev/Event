@@ -33,7 +33,7 @@ class _BuyTicketScreenState extends State<BuyEvent> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // ── Résumé event ──
+            // ── event ──
             Container(
               padding: EdgeInsets.all(16),
               decoration: BoxDecoration(
@@ -108,7 +108,7 @@ class _BuyTicketScreenState extends State<BuyEvent> {
 
             SizedBox(height: 20),
 
-            // ── Type de ticket ──
+            // ── Typeee of ticket ──
             Text(
               'Type de ticket',
               style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
@@ -163,7 +163,7 @@ class _BuyTicketScreenState extends State<BuyEvent> {
 
             SizedBox(height: 20),
 
-            // ── Nombre de tickets ──
+            // ── Number of ticket ──
             Text(
               'Nombre de tickets',
               style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
@@ -259,7 +259,7 @@ class _BuyTicketScreenState extends State<BuyEvent> {
                       onPressed: () {
                         ScaffoldMessenger.of(context).showSnackBar(
                           SnackBar(
-                            content: Text('Ticket acheté avec succès ! 🎉'),
+                            content: Text('Ticket acheté avec succès ! '),
                             backgroundColor: Colors.green,
                           ),
                         );

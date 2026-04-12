@@ -114,7 +114,7 @@ class UserEvent extends StatelessWidget {
 
             SizedBox(height: 12),
 
-            // ── Bouton déconnexion ──
+            // ── Deconnect ──
             Container(
               color: Colors.white,
               child: MenuitemCard(
