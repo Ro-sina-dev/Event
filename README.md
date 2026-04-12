@@ -6,8 +6,6 @@ Il s’agit d’une application d’événements qui regroupe les différents é
 
 Design inspiré de Pinterest pour une expérience moderne et intuitive.
 
-Mentor : Claude AI (corrections et accompagnement)
-
 Clean architecture
 
 ## Getting Started
