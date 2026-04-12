@@ -9,8 +9,8 @@ Design inspiré de Pinterest pour une expérience moderne et intuitive.
 Clean architecture
 
 <p align="center">
-  <img src="assets/images/detail.jpeg" width="250"/>
-  <img src="assets/images/buy.jpeg" width="250"/>
+  <img src="assets/images/detail.jpeg" width="300"/>
+  <img src="assets/images/buy.jpeg" width="300"/>
  
 </p>
 
