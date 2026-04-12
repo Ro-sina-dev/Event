@@ -13,7 +13,8 @@ Clean architecture
 <p align="center">
   <img src="assets/images/detail.jpeg" width="300"/>
   <img src="assets/images/buy.jpeg" width="300"/>
- 
+ <img src="assets/images/home.jpeg" width="300"/>
+
 </p>
 
 ## Getting Started
