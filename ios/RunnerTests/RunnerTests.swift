@@ -1,12 +1,12 @@
 import Flutter
 import UIKit
-import XCTest
+import XCevent
 
-class RunnerTests: XCTestCase {
+class Runnerevents: XCeventCase {
 
-  func testExample() {
-    // If you add code to the Runner application, consider adding tests here.
-    // See https://developer.apple.com/documentation/xctest for more information about using XCTest.
+  func eventExample() {
+    // If you add code to the Runner application, consider adding events here.
+    // See https://developer.apple.com/documentation/xcevent for more information about using XCevent.
   }
 
 }
