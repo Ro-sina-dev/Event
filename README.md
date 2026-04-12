@@ -11,9 +11,9 @@ Clean architecture
 ## Petite Aperçu de l'application
 
 <p align="center">
-  <img src="assets/images/detail.jpeg" width="300"/>
-  <img src="assets/images/buy.jpeg" width="300"/>
- <img src="assets/images/home.jpeg" width="300"/>
+  <img src="assets/images/detail.jpeg" width="200"/>
+  <img src="assets/images/buy.jpeg" width="200"/>
+ <img src="assets/images/home.jpeg" width="200"/>
 
 </p>
 
