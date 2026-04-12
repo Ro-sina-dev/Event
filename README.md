@@ -1,6 +1,12 @@
 # event
 
-A new Flutter project.
+Ce projet a été fait dans le cadre de me remettre à niveau dans la structure frontend en flutter .
+
+c'est un projet d'event qui reuni toutes les events de la cote d'ivoire
+
+Design pinterest utilsé
+
+Mentor claude ai
 
 ## Getting Started
 
