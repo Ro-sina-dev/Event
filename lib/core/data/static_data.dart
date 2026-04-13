@@ -4,9 +4,9 @@ class StaticData {
       'title': 'Didi B Live',
       'image': 'assets/images/eventdidi.jpg',
       'price': '\$100',
-      'location': 'Abidjan',
+      'location': 'AbidjanAAA',
       'lieu': 'Sofitel',
-      'date': '30 MAI',
+      'date': '10 MAI',
     },
     {
       'title': 'Himra Live',
