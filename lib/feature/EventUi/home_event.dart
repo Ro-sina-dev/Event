@@ -49,7 +49,6 @@ class _HomeEventState extends State<HomeEvent>
       body: ListView(
         padding: EdgeInsets.all(16),
         children: [
-          // ── Tabs ──
           Container(
             decoration: BoxDecoration(
               color: Colors.white,
@@ -77,7 +76,6 @@ class _HomeEventState extends State<HomeEvent>
 
           SizedBox(height: 16),
 
-          // ── Search Bar ──
           Container(
             padding: EdgeInsets.symmetric(horizontal: 12),
             decoration: BoxDecoration(
@@ -99,7 +97,6 @@ class _HomeEventState extends State<HomeEvent>
 
           SizedBox(height: 20),
 
-          // ── Popular Events ──
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
@@ -180,7 +177,6 @@ class _HomeEventState extends State<HomeEvent>
 
           SizedBox(height: 24),
 
-          // ── Upcoming Events ──
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
@@ -211,7 +207,6 @@ class _HomeEventState extends State<HomeEvent>
         ],
       ),
 
-      // ── Bottom Navigation ──
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _bottomNav,
         onTap: (i) {

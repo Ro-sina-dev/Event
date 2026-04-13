@@ -179,7 +179,7 @@ class _BuyTicketScreenState extends State<BuyEvent> {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  // Bouton -
+                  // Button
                   GestureDetector(
                     onTap: () {
                       if (nombreTickets > 1) setState(() => nombreTickets--);
@@ -200,7 +200,6 @@ class _BuyTicketScreenState extends State<BuyEvent> {
                     style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                   ),
 
-                  // Bouton +
                   GestureDetector(
                     onTap: () => setState(() => nombreTickets++),
                     child: Container(
@@ -219,7 +218,6 @@ class _BuyTicketScreenState extends State<BuyEvent> {
 
             SizedBox(height: 30),
 
-            // ── Total + Bouton payer ──
             Container(
               padding: EdgeInsets.all(16),
               decoration: BoxDecoration(

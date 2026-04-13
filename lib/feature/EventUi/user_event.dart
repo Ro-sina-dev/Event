@@ -24,7 +24,6 @@ class UserEvent extends StatelessWidget {
               padding: EdgeInsets.all(20),
               child: Column(
                 children: [
-                  // Avatar
                   CircleAvatar(
                     radius: 45,
                     backgroundColor: Colors.orange.shade100,
@@ -72,7 +71,6 @@ class UserEvent extends StatelessWidget {
 
             SizedBox(height: 12),
 
-            // ── Menu options ──
             Container(
               color: Colors.white,
               child: Column(
@@ -114,7 +112,6 @@ class UserEvent extends StatelessWidget {
 
             SizedBox(height: 12),
 
-            // ── Deconnect ──
             Container(
               color: Colors.white,
               child: MenuitemCard(

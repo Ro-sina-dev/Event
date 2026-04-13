@@ -5,6 +5,7 @@ void main() {
   runApp(MyAppEvent());
 }
 
+//rroot of app
 class MyAppEvent extends StatelessWidget {
   MyAppEvent({super.key});
 

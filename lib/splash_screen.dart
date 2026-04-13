@@ -3,11 +3,12 @@ import 'package:event/core/thme/app_text_style.dart';
 import 'package:event/feature/EventUi/home_event.dart';
 import 'package:flutter/material.dart';
 
-///why statefull because there are state
 class SplashScreen extends StatefulWidget {
   @override
   State<SplashScreen> createState() => _SplashScreenState();
 }
+
+//first root of app
 
 class _SplashScreenState extends State<SplashScreen> {
   @override

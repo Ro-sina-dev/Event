@@ -36,7 +36,6 @@ class InfoCard extends StatelessWidget {
 
             SizedBox(height: 4),
 
-            // ── Valeur ──
             Text(
               valeur,
               style: TextStyle(

@@ -18,7 +18,6 @@ class DetailEvent extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // ── Image principale ──
             Image.asset(
               event['image']!,
               width: double.infinity,
@@ -31,7 +30,6 @@ class DetailEvent extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  // ── Titre ──
                   Text(
                     event['title']!,
                     style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
@@ -89,7 +87,6 @@ class DetailEvent extends StatelessWidget {
 
                   SizedBox(height: 30),
 
-                  // ── Titre autres events ──
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
@@ -112,7 +109,6 @@ class DetailEvent extends StatelessWidget {
 
                   SizedBox(height: 10),
 
-                  // ── Liste autres events ──
                   ...StaticData.otherEvents.map((autreEvent) {
                     return GestureDetector(
                       onTap: () {
@@ -134,7 +130,6 @@ class DetailEvent extends StatelessWidget {
                         ),
                         child: Row(
                           children: [
-                            // Image
                             ClipRRect(
                               borderRadius: BorderRadius.horizontal(
                                 left: Radius.circular(16),
@@ -147,7 +142,6 @@ class DetailEvent extends StatelessWidget {
                               ),
                             ),
 
-                            // Infos
                             Expanded(
                               child: Padding(
                                 padding: EdgeInsets.symmetric(

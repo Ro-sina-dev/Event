@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class EventCard extends StatelessWidget {
   final Map<String, String> event;
-  final VoidCallback onTap; // ← action au clic
+  final VoidCallback onTap;
 
   const EventCard({required this.event, required this.onTap, super.key});
 
