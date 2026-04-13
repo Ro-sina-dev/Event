@@ -17,6 +17,8 @@ Clean architecture
 
 </p>
 
+Rosine a fait sonner le telephone de son ex
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
