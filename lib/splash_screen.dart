@@ -1,5 +1,6 @@
 import 'package:event/core/constant/app_colors.dart';
 import 'package:event/core/thme/app_text_style.dart';
+import 'package:event/feature/EventUi/auth/login_event.dart';
 import 'package:event/feature/EventUi/home_event.dart';
 import 'package:flutter/material.dart';
 
@@ -50,7 +51,7 @@ class _SplashScreenState extends State<SplashScreen> {
             SizedBox(height: AppTextStyles.height),
 
             Text(
-              'Find & enjoy events near you',
+              'Trouve des evenements pres de toi ',
               style: TextStyle(color: AppColors.colorsContainer, fontSize: 14),
             ),
 

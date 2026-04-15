@@ -60,7 +60,7 @@ class _HomeEventState extends State<HomeEvent>
                   index: 0,
                   selectedIndex: _selectedTab,
                   icon: Icons.confirmation_number_outlined,
-                  label: 'Buy Tickets',
+                  label: 'Acheter  Tickets',
                   onTap: () => setState(() => _selectedTab = 0),
                 ),
                 TabItem(
@@ -87,8 +87,8 @@ class _HomeEventState extends State<HomeEvent>
               decoration: InputDecoration(
                 icon: Icon(Icons.search, color: Colors.grey),
                 hintText: _selectedTab == 0
-                    ? 'Search for events...'
-                    : 'Search for vendors...',
+                    ? 'Recherches des events...'
+                    : 'Recherches for vendors...',
                 border: InputBorder.none,
                 hintStyle: TextStyle(color: Colors.grey),
               ),
@@ -101,12 +101,15 @@ class _HomeEventState extends State<HomeEvent>
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Text(
-                _selectedTab == 0 ? 'Popular Events' : 'Top Vendors for You',
+                _selectedTab == 0 ? 'Events populaire' : 'Top vendors pour toi',
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
               ),
               TextButton(
                 onPressed: () {},
-                child: Text('See all', style: TextStyle(color: Colors.orange)),
+                child: Text(
+                  'Voir plus',
+                  style: TextStyle(color: Colors.orange),
+                ),
               ),
             ],
           ),
@@ -186,7 +189,10 @@ class _HomeEventState extends State<HomeEvent>
               ),
               TextButton(
                 onPressed: () {},
-                child: Text('See all', style: TextStyle(color: Colors.orange)),
+                child: Text(
+                  'Voir plus',
+                  style: TextStyle(color: Colors.orange),
+                ),
               ),
             ],
           ),
@@ -224,13 +230,13 @@ class _HomeEventState extends State<HomeEvent>
         unselectedItemColor: Colors.grey,
         type: BottomNavigationBarType.fixed,
         items: [
-          BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
+          BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Accueil'),
           BottomNavigationBarItem(icon: Icon(Icons.event), label: 'Events'),
           BottomNavigationBarItem(
             icon: Icon(Icons.storefront),
             label: 'Vendors',
           ),
-          BottomNavigationBarItem(icon: Icon(Icons.person), label: 'User'),
+          BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Profil'),
         ],
       ),
     );
