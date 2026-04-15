@@ -67,7 +67,7 @@ class _HomeEventState extends State<HomeEvent>
                   index: 1,
                   selectedIndex: _selectedTab,
                   icon: Icons.shopping_cart_outlined,
-                  label: 'Hire Vendors',
+                  label: 'Mes Reservations',
                   onTap: () => setState(() => _selectedTab = 1),
                 ),
               ],
@@ -184,7 +184,7 @@ class _HomeEventState extends State<HomeEvent>
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Text(
-                'Upcoming Events',
+                ' Events Avenir',
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
               ),
               TextButton(

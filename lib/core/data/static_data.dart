@@ -30,10 +30,10 @@ class StaticData {
 
   static final List<String> filters = [
     'All',
-    'Music',
-    'Food',
-    'Dating',
-    'Business',
+    'Event Ticket',
+    'Location Events',
+    'Prestataire Events',
+    'Autres',
   ];
 
   static final List<Map<String, String>> upcoming = [
