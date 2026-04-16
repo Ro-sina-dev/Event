@@ -29,7 +29,7 @@ class _HomeEventState extends State<HomeEvent>
             Icon(Icons.local_activity, color: Colors.orange, size: 22),
             SizedBox(width: 6),
             Text(
-              'event',
+              'Wôyô Event',
               style: TextStyle(
                 color: Colors.orange,
                 fontWeight: FontWeight.bold,
@@ -88,7 +88,7 @@ class _HomeEventState extends State<HomeEvent>
                 icon: Icon(Icons.search, color: Colors.grey),
                 hintText: _selectedTab == 0
                     ? 'Recherches des events...'
-                    : 'Recherches for vendors...',
+                    : 'Recherches reservations...',
                 border: InputBorder.none,
                 hintStyle: TextStyle(color: Colors.grey),
               ),
@@ -224,7 +224,6 @@ class _HomeEventState extends State<HomeEvent>
             );
           }
         },
-
         selectedItemColor: Colors.orange,
 
         unselectedItemColor: Colors.grey,
@@ -234,7 +233,7 @@ class _HomeEventState extends State<HomeEvent>
           BottomNavigationBarItem(icon: Icon(Icons.event), label: 'Events'),
           BottomNavigationBarItem(
             icon: Icon(Icons.storefront),
-            label: 'Vendors',
+            label: 'Vendeurs',
           ),
           BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Profil'),
         ],

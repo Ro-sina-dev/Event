@@ -9,12 +9,28 @@ class StaticData {
       'date': '10 MAI',
     },
     {
+      'title': 'Prestataire traiteur',
+      'image': 'assets/images/traiteur.jpg',
+      'price': '\$100000',
+      'location': 'Abidjan',
+      // 'lieu': 'Sofitel',
+      'date': '3 - 20 Aout ',
+    },
+    {
       'title': 'Himra Live',
       'image': 'assets/images/eventhimra.jpeg',
       'price': '\$100',
       'location': 'Abidjan',
       'lieu': 'Sofitel',
       'date': '3 Aout',
+    },
+    {
+      'title': 'Location voiture event',
+      'image': 'assets/images/Rovers.jpg',
+      'price': '\$100000',
+      'location': 'Abidjan',
+      // 'lieu': 'Sofitel',
+      'date': '1-30 Decembre',
     },
     {
       'title': 'Josey Live',
@@ -29,7 +45,7 @@ class StaticData {
   ];
 
   static final List<String> filters = [
-    'All',
+    'Tous',
     'Event Ticket',
     'Location Events',
     'Prestataire Events',
@@ -46,12 +62,36 @@ class StaticData {
       'date': '3 Decembre',
     },
     {
+      'title': 'Prestatire ceremonie',
+      'image': 'assets/images/event1.jpg',
+      'price': '\$1000',
+      'location': 'Abidjan',
+      'lieu': 'Cocody',
+      'date': '1-20 MAI',
+    },
+    {
       'title': 'Rosie Layo',
       'image': 'assets/images/eventrosie.jpg',
       'price': '\$100',
       'location': 'Abidjan',
       'lieu': 'Sofitel',
       'date': '3 Mai',
+    },
+    {
+      'title': 'Location voiture event',
+      'image': 'assets/images/Rovers.jpg',
+      'price': '\$100000',
+      'location': 'Abidjan',
+      // 'lieu': 'Sofitel',
+      'date': '1-30 Decembre',
+    },
+    {
+      'title': 'Prestataire Decoration',
+      'image': 'assets/images/orga.jpg',
+      'price': '\$100000',
+      'location': 'Abidjan',
+      // 'lieu': 'Sofitel',
+      'date': '1-30  mai ',
     },
   ];
 
@@ -90,6 +130,14 @@ class StaticData {
     },
     {
       'title': 'Rosie Layo',
+      'image': 'assets/images/eventrosie.jpg',
+      'price': '\$100',
+      'location': 'Abidjan',
+      'lieu': 'Sofitel',
+      'date': '3 Mai',
+    },
+    {
+      'title': 'Re Layo',
       'image': 'assets/images/eventrosie.jpg',
       'price': '\$100',
       'location': 'Abidjan',
